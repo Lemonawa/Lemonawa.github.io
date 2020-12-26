@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://https://lemonawa-github-io.vercel.app/</id>
+    <id>https://mydomain.com</id>
     <title>柠檬awa的小站</title>
-    <updated>2020-12-25T13:54:31.995Z</updated>
+    <updated>2020-12-26T02:32:08.719Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://https://lemonawa-github-io.vercel.app/"/>
-    <link rel="self" href="https://https://lemonawa-github-io.vercel.app/atom.xml"/>
+    <link rel="alternate" href="https://mydomain.com"/>
+    <link rel="self" href="https://mydomain.com/atom.xml"/>
     <subtitle>有志者，事竟成</subtitle>
-    <logo>https://https://lemonawa-github-io.vercel.app/images/avatar.png</logo>
-    <icon>https://https://lemonawa-github-io.vercel.app/favicon.ico</icon>
+    <logo>https://mydomain.com/images/avatar.png</logo>
+    <icon>https://mydomain.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 柠檬awa的小站</rights>
     <entry>
         <title type="html"><![CDATA[丽丽姐粉丝后援会永更网站]]></title>
-        <id>https://https://lemonawa-github-io.vercel.app/post/li-li-jie-fen-si-hou-yuan-hui-yong-geng-wang-zhan/</id>
-        <link href="https://https://lemonawa-github-io.vercel.app/post/li-li-jie-fen-si-hou-yuan-hui-yong-geng-wang-zhan/">
+        <id>https://mydomain.com/post/li-li-jie-fen-si-hou-yuan-hui-yong-geng-wang-zhan/</id>
+        <link href="https://mydomain.com/post/li-li-jie-fen-si-hou-yuan-hui-yong-geng-wang-zhan/">
         </link>
         <updated>2020-12-22T13:24:23.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/12/22/5YH6CEUxhMnjwb3.png" alt="" loading="lazy"></figure>
