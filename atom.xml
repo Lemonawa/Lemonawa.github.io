@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lemonawa.github.io</id>
+    <id>https://lemonawa.vercel.app</id>
     <title>柠檬awa的小站</title>
-    <updated>2020-12-29T11:49:13.929Z</updated>
+    <updated>2020-12-29T11:53:54.832Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lemonawa.github.io"/>
-    <link rel="self" href="https://lemonawa.github.io/atom.xml"/>
+    <link rel="alternate" href="https://lemonawa.vercel.app"/>
+    <link rel="self" href="https://lemonawa.vercel.app/atom.xml"/>
     <subtitle>有志者，事竟成</subtitle>
-    <logo>https://lemonawa.github.io/images/avatar.png</logo>
-    <icon>https://lemonawa.github.io/favicon.ico</icon>
+    <logo>https://lemonawa.vercel.app/images/avatar.png</logo>
+    <icon>https://lemonawa.vercel.app/favicon.ico</icon>
     <rights>All rights reserved 2020, 柠檬awa的小站</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://lemonawa.github.io/post/hello-gridea/</id>
-        <link href="https://lemonawa.github.io/post/hello-gridea/">
+        <id>https://lemonawa.vercel.app/post/hello-gridea/</id>
+        <link href="https://lemonawa.vercel.app/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
