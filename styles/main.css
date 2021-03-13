@@ -1,122 +1,92 @@
-@import url('https://rsms.me/inter/inter.css');
 body {
-  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #333;
-  background-color: #faf9f7;
+  background: #edeff0 url(../media/img/bg_01.jpg);
 }
-@supports (font-variation-settings: normal) {
-  body {
-    font-family: 'Inter var', Inter, Rubik, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-}
-a:not([class]) {
-  border-bottom-style: solid;
-  border-bottom-width: 0.2rem;
-  color: #0f61ff;
+a {
   text-decoration: none;
-  transition: all 0.3s ease 0s;
-  border-color: rgba(15, 97, 255, 0.1);
 }
-a:not([class]):hover {
-  border-color: rgba(15, 97, 255, 0.5);
+.k-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  flex-shrink: 0;
 }
-@media (prefers-color-scheme: dark) {
-  a:not([class]) {
-    color: #81a5f8;
-  }
+.head_card-offset {
+  padding-top: 65px;
 }
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #333;
-    color: #999;
-  }
+.site-info {
+  position: relative;
+  padding: 2.5%;
+  text-align: center;
+  font-size: 13px;
+  color: #B9B9B9;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
 }
-.yellow-btn {
-  box-shadow: rgba(255, 214, 2, 0.6) 0px 6px 12px 0px;
+.doc-footer-nav {
+  height: 96px;
 }
-.yellow-btn:hover {
-  box-shadow: rgba(255, 214, 2, 0.6) 0px 2px 4px 0px;
+.doc-footer-nav-left {
+  text-align: left;
 }
-@media (prefers-color-scheme: dark) {
-  .yellow-btn {
-    box-shadow: none;
-  }
+.doc-footer-nav-left,
+.doc-footer-nav-right {
+  height: 96px;
 }
-.wechat img {
-  display: none;
-}
-.wechat:hover img {
+.doc-footer-nav-text {
+  box-sizing: border-box;
   display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  line-height: 24px;
+  padding-top: 24px;
+  width: 100%;
 }
-.s3-round {
-  border-radius: 100px;
+.doc-footer-nav-left .mdui-icon {
+  float: left;
+  margin-right: 10px;
 }
-.s3-hover:hover {
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  animation: s3-rotate 5s infinite linear, s3-opacity 5s infinite;
+.doc-footer-nav-text .mdui-icon {
+  padding-top: 23px;
+  width: 24px;
 }
-.s3-transition {
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+.doc-footer-nav-text .doc-footer-nav-direction {
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 1px;
+  opacity: 0.55;
 }
-@-webkit-keyframes s3-rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(359deg);
-  }
+.doc-footer-nav-left .doc-footer-nav-chapter {
+  margin-left: 34px;
 }
-@keyframes s3-opacity {
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0.2;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  75% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0.1;
-  }
+.doc-footer-nav-right .mdui-icon {
+  float: right;
+  margin-left: 10px;
 }
-.s3-dotted {
-  border-radius: 100px;
+.doc-footer-nav-right {
+  text-align: right;
 }
-.s3-dotted:hover {
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  animation: s3-rotate 5s infinite linear, s3-opacity 5s infinite;
+.doc-footer-nav-left,
+.doc-footer-nav-right {
+  height: 96px;
 }
-.s3-dashed {
-  border-radius: 100px;
+.doc-footer-nav-text {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  line-height: 24px;
+  padding-top: 24px;
+  width: 100%;
 }
-.s3-dashed:hover {
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  animation: s3-rotate 5s infinite linear, s3-opacity 5s infinite;
+.doc-footer-nav-text .doc-footer-nav-direction {
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 1px;
+  opacity: 0.55;
 }
-
-      body {
-        font-family: Inter, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      }
-
-      @supports (font-variation-settings: normal) {
-        body {
-          font-family: Inter, 'Inter var', Inter, Rubik, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-      }
-    
+.doc-footer-nav-right .doc-footer-nav-chapter {
+  margin-right: 34px;
+}
